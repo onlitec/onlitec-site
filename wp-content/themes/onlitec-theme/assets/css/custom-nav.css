@@ -1,0 +1,130 @@
+/* Custom navigation styles for dropdown */
+
+/* Dropdown visibility override to ensure submenu hidden by default */
+.menu-item-has-children { position: relative; }
+.menu-item-has-children > .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  min-width: 12rem;
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+.menu-item-has-children:hover > .sub-menu { display: block; }
+
+.menu, .primary-menu {
+  position: relative;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu li > ul,
+.menu li > .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+  min-width: 12rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.menu li > ul li,
+.menu li > .sub-menu li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.menu li > ul li a,
+.menu li > .sub-menu li a {
+  color: #1e3a8a; /* blue-800 */
+}
+
+.menu li > ul li a:hover,
+.menu li > .sub-menu li a:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+.menu li:hover > ul,
+.menu li:hover > .sub-menu {
+  display: block;
+}
+
+
+.menu > li {
+  position: relative;
+}
+
+.menu li ul,
+.menu li .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+  min-width: 12rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.menu li ul li,
+.menu li .sub-menu li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.menu li ul li a,
+.menu li .sub-menu li a {
+  color: #1e3a8a; /* blue-800 */
+}
+
+.menu li ul li a:hover,
+.menu li .sub-menu li a:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+.menu li:hover > ul,
+.menu li:hover > .sub-menu {
+  display: block;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu li .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+  min-width: 12rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+.menu li ul li,
+.menu li .sub-menu li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+.menu li ul li a,
+.menu li .sub-menu li a {
+  color: #1e3a8a; /* blue-800 */
+}
+.menu li ul li a:hover,
+.menu li .sub-menu li a:hover {
+  color: #2563eb; /* blue-600 */
+}
+.menu li:hover > ul,
+.menu li:hover > .sub-menu {
+  display: block;
+}
